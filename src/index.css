@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+  }
+  
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-white/20 rounded-2xl;
+  }
+  
+  .dark .glass-card {
+    @apply bg-gray-800/80 border-gray-700/50 shadow-[0_8px_30px_rgb(0,0,0,0.12)];
+  }
+
+  .shadow-soft {
+    @apply shadow-[0_10px_40px_-10px_rgba(79,70,229,0.15)];
+  }
+}
+
+/* Base dark mode styles for body manually if needed */
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
