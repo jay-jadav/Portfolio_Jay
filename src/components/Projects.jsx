@@ -23,7 +23,7 @@ const Projects = () => {
             title: 'Weather Forecast App',
             description: 'A dynamic weather forecast web app that shows real-time weather data, 7-day forecasts, humidity, wind speed, and UV index for any city worldwide using OpenWeatherMap API.',
             image: '/p2.png',
-            tags: ['React', 'OpenWeatherMap API', 'Tailwind CSS', 'Axios'],
+            tags: ['React', 'OpenWeatherMap API', 'Tailwind CSS', ],
             demoUrl: 'https://weather-forcast-weld.vercel.app/',
             githubUrl: '#'
         }
