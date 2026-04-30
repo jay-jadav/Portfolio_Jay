@@ -14,7 +14,7 @@ const Projects = () => {
         {
             title: 'Digital Bazaar',
             description: 'A modern pizza ordering platform with user authentication, dynamic cart management, and a sleek dark-mode UI. Features an admin panel for easy management.',
-            image: 'p4.png',
+            image: '/p4.png',
             tags: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
             demoUrl: 'https://digitalbazaar.infinityfreeapp.com/',
             githubUrl: '#'
