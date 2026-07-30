@@ -2,12 +2,12 @@ import React from 'react';
 import { FaGraduationCap, FaCode } from 'react-icons/fa';
 
 const ProfileEducation = () => {
-    const technologies = ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'React.js', 'MySQL', 'UI/UX Design'];
+    const technologies = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'PHP', 'React.js', 'Next.js', 'Tailwind CSS', 'MySQL', 'UI/UX Design'];
 
     const education = [
         {
             degree: 'Bachelor of Computer Applications (BCA)',
-            year: 'Expected May 2026',
+            year: '2023 - 2026 ',
             institution: 'Atmiya University',
             location: 'Rajkot, Gujarat'
         }
@@ -34,7 +34,7 @@ const ProfileEducation = () => {
                                 Professional Objective
                             </h3>
                             <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-8">
-                                Motivated BCA student with strong skills in Web Development, passionate about building responsive applications, seeking to apply technical skills in a professional IT environment for growth and development.
+                                I am a recent Bachelor of Computer Applications (BCA) graduate from Atmiya University, Rajkot, with a strong foundation in Web Development. Skilled in React.js, Next.js, TypeScript, JavaScript, PHP, and MySQL, I enjoy building responsive and user-friendly web applications. I am eager to apply my skills, contribute to innovative projects, and grow as a Full Stack Web Developer.
                             </p>
 
                             <h3 className="text-xl font-bold font-poppins text-textm dark:text-white mb-4 flex items-center gap-3">

@@ -30,8 +30,8 @@ const Hero = () => {
               <Link to="projects" smooth={true} duration={500} offset={-80} className="w-full sm:w-auto px-8 py-3.5 bg-primary text-white font-medium rounded-full hover:bg-indigo-700 transition shadow-soft cursor-pointer text-center">
                 View My Work
               </Link>
-              <a href="/resume.pdf" download="Jay_Resume.pdf" target="_blank" className="w-full sm:w-auto px-8 py-3.5 bg-white dark:bg-gray-800 text-textm dark:text-white border border-gray-200 dark:border-gray-700 font-medium rounded-full hover:bg-gray-50 dark:hover:bg-gray-700 transition cursor-pointer text-center shadow-sm">
-                Download CV
+              <a href="/Jay_Jadav_Resume.pdf" download="Jay_Jadav_Resume.pdf" target="_blank" className="w-full sm:w-auto px-8 py-3.5 bg-white dark:bg-gray-800 text-textm dark:text-white border border-gray-200 dark:border-gray-700 font-medium rounded-full hover:bg-gray-50 dark:hover:bg-gray-700 transition cursor-pointer text-center shadow-sm">
+                Download Resume
               </a>
             </div>
           </div>

@@ -142,7 +142,7 @@ const Contact = () => {
                                     <FaWhatsapp className="text-xl" />
                                     {isSubmitting ? 'Opening WhatsApp...' : sent ? '✓ Sent to WhatsApp!' : 'Send via WhatsApp'}
                                 </button>
-                                
+
                                 <button
                                     type="button"
                                     onClick={() => {
@@ -155,7 +155,7 @@ const Contact = () => {
                                     <FaEnvelope className="text-xl" />
                                     Send via Email
                                 </button>
-                                
+
                                 {sent && (
                                     <p className="text-sm text-green-600 dark:text-green-400 animate-pulse">
                                         WhatsApp has been opened! 🎉
